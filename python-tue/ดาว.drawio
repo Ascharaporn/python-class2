@@ -1,0 +1,126 @@
+<mxfile host="65bd71144e">
+    <diagram id="yGUUkOookufbYseF7Pip" name="Page-1">
+        <mxGraphModel dx="2102" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-9" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-1" style="edgeStyle=none;html=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="start" vertex="1">
+                    <mxGeometry height="60" width="100" x="360" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-10" edge="1" parent="1" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-5" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-12" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-5" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-11" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="อ่าน octet แรก" vertex="1">
+                    <mxGeometry height="50" width="140" x="340" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-18" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-11" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-17" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-21" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-11" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-13" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="อยู่ระหว่าง 1-126 ไหม" vertex="1">
+                    <mxGeometry height="100" width="110" x="355" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-20" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-13" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-19" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-22" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-13" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-14" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="อยู๋ระหว่าง 128-191ไหม" vertex="1">
+                    <mxGeometry height="100" width="110" x="355" y="395" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-23" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-14" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-15" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-26" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-14" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-25" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;อยู๋ระหว่าง 192-223ไหม&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="100" width="110" x="355" y="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-24" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-15" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-16" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-28" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-15" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-27" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;อยู๋ระหว่าง 224-239ไหม&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="100" width="110" x="355" y="635" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-30" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-16" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-29" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-33" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-16" style="edgeStyle=none;html=1;" target="KfMpYv5BwR0QcLDRHQ3c-32" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;อยู๋ระหว่าง 240-255ไหม&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="100" width="110" x="355" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-35" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="723.1" y="320"/>
+                            <mxPoint x="803.1" y="320"/>
+                            <mxPoint x="803" y="930"/>
+                        </Array>
+                        <mxPoint x="643.1" y="390" as="sourcePoint"/>
+                        <mxPoint x="470" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-17" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="เป็นclass A" vertex="1">
+                    <mxGeometry height="50" width="150" x="490" y="295" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-37" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-19" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="445" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-19" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="เป็นclass B" vertex="1">
+                    <mxGeometry height="50" width="150" x="490" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-38" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-25" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-25" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="เป็นclass C" vertex="1">
+                    <mxGeometry height="50" width="150" x="490" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-39" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-27" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="810" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-27" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="เป็นclass D" vertex="1">
+                    <mxGeometry height="50" width="150" x="490" y="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-40" edge="1" parent="1" source="KfMpYv5BwR0QcLDRHQ3c-29" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-29" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="เป็นclass E" vertex="1">
+                    <mxGeometry height="50" width="150" x="490" y="790" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-32" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="จบการทำงาน" vertex="1">
+                    <mxGeometry height="60" width="100" x="365" y="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="KfMpYv5BwR0QcLDRHQ3c-34" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#fff2cc;strokeColor=#d6b656;" value="รับค่า&amp;nbsp; IP Address" vertex="1">
+                    <mxGeometry height="40" width="130" x="340" y="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
